@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Implementing Light & Dark Mode",
+        "content": "My code implements a light/dark mode switcher for a webpage. It starts by selecting the `h1` element with the ID 'heading' and the button with the ID 'modeSwitcher' using getElementById. The switchMode function is defined to toggle the background color of the page between black and white, while also changing the color of the `h1` text to ensure it remains visible. The button's click event is then tied to the switchMode function using addEventListener, so each time the button is clicked, the page's theme switches between light and dark modes."
+    },
+    {
+        "title": "Blog Section with JavaScript",
+        "content": "Create blog.html with a 'div' element where blog posts will be displayed. Use post.json to store an array of blog posts, each containing a title and content. In scripts.js, use JavaScript to fetch the JSON data and dynamically generate HTML for each post. This script appends each post's title and content to the #blog-list div in blog.html. Finally, include scripts.js in blog.html to ensure that the script runs after the page loads, displaying the posts as intended."
+    }
+      
+]
